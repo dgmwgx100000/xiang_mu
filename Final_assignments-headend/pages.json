@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "新闻小快报"
+			}
+		},
+	
+		{
+			"path" : "pages/wode/wode",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新闻小快报",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/NewsDetail/NewsDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/keshihuazhuangtu/keshihuazhuangtu",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/lyb/lyb",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/destinationPage/destinationPage",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+		
+	],
+	
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页面"
+			},
+			{
+				"pagePath": "pages/keshihuazhuangtu/keshihuazhuangtu",
+				"text": "可视化视图"
+			},
+			{
+				"pagePath": "pages/wode/wode",
+				"text": "我的"
+			}
+			
+			
+			
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

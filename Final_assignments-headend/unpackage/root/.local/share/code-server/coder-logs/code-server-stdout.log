@@ -1,0 +1,8 @@
+[2024-05-16T08:25:08.575Z] info  code-server 4.16.1 94ef3776ad7bebfb5780dfc9632e04d20d5c9a6c
+[2024-05-16T08:25:08.577Z] info  Using user-data-dir /www/server/code-server/user-data-dir
+[2024-05-16T08:25:08.613Z] info  Using config file /www/server/code-server/config.yaml
+[2024-05-16T08:25:08.614Z] info  HTTPS server listening on https://127.0.0.1:9703/
+[2024-05-16T08:25:08.614Z] info    - Authentication is enabled
+[2024-05-16T08:25:08.615Z] info      - Using password from /www/server/code-server/config.yaml
+[2024-05-16T08:25:08.615Z] info    - Using certificate for HTTPS: /www/server/panel/ssl/certificate.pem
+[2024-05-16T08:25:08.615Z] info  Session server listening on /www/server/code-server/user-data-dir/code-server-ipc.sock
